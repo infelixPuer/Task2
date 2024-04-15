@@ -11,7 +11,7 @@ function addValues(arg1, arg2) {
             return arg1 + arg2
 
         case "boolean":
-            return arg1 && arg2;
+            return arg1 || arg2;
 
         case "undefined":
             return undefined;
